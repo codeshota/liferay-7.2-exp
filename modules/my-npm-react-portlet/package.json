@@ -11,7 +11,7 @@
 		"@babel/preset-react": "^7.0.0",
 		"liferay-npm-bundler": "2.18.2"
 	},
-	"main": "src/index.js",
+	"main": "js/index.js",
 	"name": "my-npm-react-portlet",
 	"scripts": {
 		"build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
