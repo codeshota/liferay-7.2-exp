@@ -20,7 +20,7 @@
 	"main": "js/index.js",
 	"name": "my-npm-react-portlet",
 	"scripts": {
-		"build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources --extensions '.ts,.tsx' && liferay-npm-bundler"
+		"build": "tsc && babel -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources --extensions '.ts,.tsx' && liferay-npm-bundler"
 	},
 	"version": "1.0.0"
 }

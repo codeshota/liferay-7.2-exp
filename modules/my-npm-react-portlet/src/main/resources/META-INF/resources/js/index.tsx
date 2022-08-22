@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-
-export interface IProps {
-	elementId: string;
-	data: any;
-}
+import { IProps } from "./types";
 
 export default function ({ elementId, data }: IProps) {
 	ReactDOM.render(<App
