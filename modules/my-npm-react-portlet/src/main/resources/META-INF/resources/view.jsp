@@ -6,7 +6,7 @@
 	const tags = [
 		{name: 'one', count: 3},
 		{name: 'two', count: 1},
-		{name: 'three', count: 2},
+		{name: 'three', count: 1},
 		{name: 'four', count: 1},
 	];
 
