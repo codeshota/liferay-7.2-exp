@@ -1,0 +1,13 @@
+{
+	"main": "js/App.es",
+	"name": "frontend-css-cadmin-sample-web",
+	"scripts": {
+		"build": "../../../../../node_modules/.bin/liferay-npm-scripts build",
+		"checkFormat": "../../../../../node_modules/.bin/liferay-npm-scripts check",
+		"format": "../../../../../node_modules/.bin/liferay-npm-scripts fix"
+	},
+	"version": "1.0.16",
+	"devDependencies": {
+		"@liferay/npm-scripts": "^47.6.1"
+	}
+}
