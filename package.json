@@ -2,7 +2,9 @@
     "private": true,
     "workspaces": {
         "packages": [
-            "modules/my-npm-react-portlet"
+            "modules/my-npm-react-portlet",
+            "modules/frontend-js-walkthrough-sample-web",
+            "modules/frontend-css-cadmin-sample-web"
         ]
     }
 }
